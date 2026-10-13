@@ -1,0 +1,2362 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alifa Safara — Tas Rajut &amp; Tali Kur Handmade Bojonegoro</title>
+    <meta
+      name="description"
+      content="Tas rajut dan tas tali kur handmade karya ibu-ibu perajin Sumberrejo, Bojonegoro. Dibuat 100% dengan tangan, hangat, kuat, dan bisa dipesan custom sesuai keinginan."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN & Config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body
+    class="bg-base-canvas text-base-text antialiased selection:bg-primary selection:text-white font-sans"
+  >
+    <!-- Top Announcement Bar -->
+    <div
+      class="bg-primary-light text-primary text-xs sm:text-sm py-2 px-4 border-b border-primary/20 text-center font-medium"
+    >
+      <div
+        class="max-w-[1240px] mx-auto flex items-center justify-center gap-2 flex-wrap"
+      >
+        <span class="inline-flex items-center gap-1 font-semibold">
+          <span>🧵</span> Kriya Handmade Bojonegoro:
+        </span>
+        <span
+          >Setiap jahitan dibuat manual dengan cinta &amp; ketelitian. Menerima
+          pesanan custom ke seluruh Indonesia dan Luar Negeri!</span
+        >
+      </div>
+    </div>
+    <header
+      class="sticky top-0 z-50 bg-base-canvas/95 backdrop-blur-md border-b border-base-border transition-all"
+    >
+      <div
+        class="max-w-[1240px] mx-auto px-5 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <a href="#" class="flex flex-col group">
+          <span
+            class="font-serif text-2xl lg:text-3xl font-bold text-primary group-hover:text-primary-hover transition-colors tracking-tight"
+          >
+            Alifa Safara
+          </span>
+          <span
+            class="text-[10px] uppercase tracking-widest text-secondary font-semibold -mt-0.5"
+          >
+            Tas Rajut &amp; Tali Kur Handmade
+          </span>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-8 text-sm font-medium">
+          <a
+            href="#koleksi"
+            class="text-base-text hover:text-primary transition-colors py-1"
+            >Koleksi Tas</a
+          >
+          <a
+            href="#kisah"
+            class="text-base-text hover:text-primary transition-colors py-1"
+            >Kisah Pengrajin</a
+          >
+          <a
+            href="#keunggulan"
+            class="text-base-text hover:text-primary transition-colors py-1"
+            >Material &amp; Kualitas</a
+          >
+          <a
+            href="#testimoni"
+            class="text-base-text hover:text-primary transition-colors py-1"
+            >Ulasan Pembeli</a
+          >
+          <a
+            href="#faq"
+            class="text-base-text hover:text-primary transition-colors py-1"
+            >FAQ</a
+          >
+        </nav>
+
+        <div class="hidden lg:flex items-center gap-3">
+          <button
+            onclick="
+              openWA(
+                'Halo Alifa Safara, saya ingin konsultasi pemesanan tas rajut / tali kur.',
+              )
+            "
+            class="bg-primary hover:bg-primary-hover text-white px-6 py-2.5 rounded-full font-semibold text-sm transition-all shadow-warm hover:shadow-warm-lg"
+          >
+            Pesan via WhatsApp
+          </button>
+        </div>
+
+        <button
+          class="lg:hidden p-2 rounded-xl text-base-text hover:bg-base-card transition-colors"
+          id="mobileMenuBtn"
+          aria-label="Buka Menu Navigasi"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+
+      <div
+        id="mobileMenu"
+        class="hidden lg:hidden bg-base-canvas border-b border-base-border px-6 py-5 flex flex-col gap-4 shadow-lg"
+      >
+        <a
+          href="#koleksi"
+          class="text-base-text hover:text-primary font-medium py-1 mobile-link"
+          >Koleksi Tas</a
+        >
+        <a
+          href="#kisah"
+          class="text-base-text hover:text-primary font-medium py-1 mobile-link"
+          >Kisah Pengrajin</a
+        >
+        <a
+          href="#keunggulan"
+          class="text-base-text hover:text-primary font-medium py-1 mobile-link"
+          >Material &amp; Kualitas</a
+        >
+        <a
+          href="#testimoni"
+          class="text-base-text hover:text-primary font-medium py-1 mobile-link"
+          >Ulasan Pembeli</a
+        >
+        <a
+          href="#faq"
+          class="text-base-text hover:text-primary font-medium py-1 mobile-link"
+          >FAQ</a
+        >
+        <div class="pt-2 border-t border-base-border flex flex-col gap-2">
+          <button
+            onclick="
+              openWA(
+                'Halo Alifa Safara, saya ingin konsultasi pemesanan tas rajut / tali kur.',
+              )
+            "
+            class="bg-primary text-center hover:bg-primary-hover text-white px-6 py-3 rounded-full font-semibold text-sm transition-colors"
+          >
+            Pesan via WhatsApp
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- 6.2 Hero Section -->
+    <section
+      class="relative overflow-hidden pt-8 pb-16 lg:py-20 border-b border-base-border"
+    >
+      <!-- Decorative Warm Background Circles -->
+      <div
+        class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary/5 blur-3xl pointer-events-none"
+      ></div>
+      <div
+        class="absolute bottom-0 right-0 w-80 h-80 rounded-full bg-secondary/10 blur-3xl pointer-events-none"
+      ></div>
+
+      <div class="max-w-[1240px] mx-auto px-5 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          <!-- Text Content -->
+          <div class="lg:w-1/2 flex flex-col items-start text-left">
+            <!-- Artisan Badge -->
+            <div
+              class="inline-flex items-center gap-2 px-3.5 py-1.5 bg-secondary/15 text-secondary text-xs font-bold uppercase tracking-wider rounded-full mb-6 border border-secondary/25"
+            >
+              <span>🪡</span>
+              <span>100% Kriya Tangan Asli Bojonegoro</span>
+            </div>
+
+            <h1
+              class="font-serif text-4xl sm:text-5xl lg:text-[54px] leading-[1.18] font-bold text-base-text mb-6"
+            >
+              Sentuhan Hangat dari Setiap
+              <span class="text-primary italic font-serif">Helai Benang</span>
+              &amp; Anyaman Tali Kur
+            </h1>
+
+            <p
+              class="text-base sm:text-lg text-base-muted mb-8 leading-relaxed max-w-xl"
+            >
+              Karya seni kriya autentik buatan tangan ibu-ibu perajin
+              Sumberrejo, Bojonegoro. Bukan sekadar tas, melainkan untaian
+              dedikasi, bahan katun &amp; tali kur pilihan yang kokoh, serta
+              kehangatan slow-fashion yang awet bertahun-tahun.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div
+              class="flex flex-col sm:flex-row gap-3.5 w-full sm:w-auto mb-10"
+            >
+              <a
+                href="#koleksi"
+                class="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-semibold text-center transition-all shadow-warm hover:shadow-warm-lg flex items-center justify-center gap-2 text-base group"
+              >
+                <span>Lihat Katalog Koleksi</span>
+                <svg
+                  class="w-4 h-4 group-hover:translate-y-0.5 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <button
+                onclick="
+                  openWA(
+                    'Halo Alifa Safara, saya ingin konsultasi untuk custom order tas rajut / tali kur.',
+                  )
+                "
+                class="bg-base-card hover:bg-base-border/70 border border-base-border text-base-text px-7 py-4 rounded-full font-semibold text-center transition-all flex items-center justify-center gap-2 text-base"
+              >
+                <span>Konsultasi Custom Order</span>
+                <span class="text-secondary font-bold">💬</span>
+              </button>
+            </div>
+
+            <!-- Social Proof -->
+            <div
+              class="pt-6 border-t border-base-border/70 w-full flex items-center gap-4 flex-wrap"
+            >
+              <div class="flex -space-x-2.5 overflow-hidden">
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-base-canvas object-cover shadow-sm"
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80"
+                  alt="Pelanggan Alifa Safara"
+                />
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-base-canvas object-cover shadow-sm"
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80"
+                  alt="Pelanggan Alifa Safara"
+                />
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-base-canvas object-cover shadow-sm"
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80"
+                  alt="Pelanggan Alifa Safara"
+                />
+                <img
+                  class="w-10 h-10 rounded-full border-2 border-base-canvas object-cover shadow-sm"
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=120&q=80"
+                  alt="Pelanggan Alifa Safara"
+                />
+              </div>
+
+              <div>
+                <div class="flex items-center gap-1 text-tertiary">
+                  <span class="text-xs font-bold text-base-text mr-1"
+                    >4.9 / 5.0</span
+                  >
+                  <svg
+                    class="w-4 h-4 fill-current text-[#E5A855]"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="w-4 h-4 fill-current text-[#E5A855]"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="w-4 h-4 fill-current text-[#E5A855]"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="w-4 h-4 fill-current text-[#E5A855]"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="w-4 h-4 fill-current text-[#E5A855]"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    ></path>
+                  </svg>
+                </div>
+                <p
+                  class="text-xs sm:text-sm text-base-muted font-medium mt-0.5"
+                >
+                  500+ tas handmade terkirim ke seluruh nusantara
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image & Handmade Framed Badge -->
+          <div class="lg:w-1/2 relative w-full flex justify-center">
+            <!-- Outer Arch Frame with Warm Stitch Border -->
+            <div
+              class="relative w-full max-w-md lg:max-w-lg aspect-[4/5] sm:aspect-[3/4]"
+            >
+              <!-- Decorative Backing -->
+              <div
+                class="absolute inset-0 rounded-t-[200px] sm:rounded-t-[240px] rounded-b-[40px] bg-primary/10 -rotate-2 transform transition-transform"
+              ></div>
+
+              <!-- Main Image Container -->
+              <div
+                class="relative w-full h-full rounded-t-[200px] sm:rounded-t-[240px] rounded-b-[40px] overflow-hidden border-4 border-base-canvas shadow-warm-lg bg-base-card"
+              >
+                <img
+                  src="./img/Tas Rajut Floral Teddy Dua Warna.png"
+                  alt="Tas Rajut Karakter Kelinci Bunga Ceria buatan tangan Alifa Safara Bojonegoro"
+                  class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
+                />
+
+                <!-- Top Ribbon -->
+                <div
+                  class="absolute top-6 left-1/2 -translate-x-1/2 bg-base-canvas/90 backdrop-blur-md px-4 py-1.5 rounded-full shadow-sm text-xs font-semibold text-primary border border-primary/20"
+                >
+                  Koleksi Pilihan: Kelinci Bunga Ceria
+                </div>
+              </div>
+
+              <!-- Floating Artisan Badge 1 (Left Bottom) -->
+              <div
+                class="absolute -left-2 sm:-left-6 bottom-10 bg-base-elevated p-3 sm:p-4 rounded-2xl shadow-warm border border-base-border flex items-center gap-3 animate-soft-float"
+              >
+                <div
+                  class="w-10 h-10 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center font-bold text-lg"
+                >
+                  🧶
+                </div>
+                <div>
+                  <div class="font-bold text-xs sm:text-sm text-base-text">
+                    Anyaman Padat
+                  </div>
+                  <div class="text-[11px] text-base-muted">
+                    Tali Kur &amp; Katun Pilihan
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Artisan Badge 2 (Right Top/Middle) -->
+              <div
+                class="absolute -right-2 sm:-right-6 top-1/3 bg-base-elevated p-3 sm:p-4 rounded-2xl shadow-warm border border-base-border flex items-center gap-3"
+              >
+                <div
+                  class="w-10 h-10 rounded-xl bg-primary/15 text-primary flex items-center justify-center font-bold text-lg"
+                >
+                  🛡️
+                </div>
+                <div>
+                  <div class="font-bold text-xs sm:text-sm text-base-text">
+                    Kuat &amp; Awet
+                  </div>
+                  <div class="text-[11px] text-base-muted">
+                    Tahan Beban s.d 5 kg
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="keunggulan"
+      class="bg-base-card/60 py-16 lg:py-24 border-b border-base-border relative"
+    >
+      <div class="max-w-[1240px] mx-auto px-5 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs uppercase tracking-widest text-primary font-bold"
+            >Kualitas Kriya Tradisional</span
+          >
+          <h2
+            class="font-serif text-3xl lg:text-4xl font-bold mt-2 mb-4 text-base-text"
+          >
+            Mengapa Memilih Tas Alifa Safara?
+          </h2>
+          <p class="text-base-muted text-sm sm:text-base leading-relaxed">
+            Setiap simpul dan rajutan bukan hasil mesin cetak cepat, melainkan
+            karya seni yang lahir dari ketelatenan tangan dengan standar
+            kualitas teruji.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            class="bg-base-canvas p-7 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform"
+              >
+                🪡
+              </div>
+              <h3 class="font-serif text-xl font-bold mb-2.5 text-base-text">
+                100% Buatan Tangan
+              </h3>
+              <p class="text-base-muted text-sm leading-relaxed">
+                Dikerjakan manual oleh perajin ibu rumah tangga di Bojonegoro.
+                Setiap tas memiliki karakter unik dan sentuhan personal yang
+                otentik.
+              </p>
+            </div>
+            <div
+              class="mt-5 pt-4 border-t border-base-border/50 text-xs font-semibold text-primary flex items-center gap-1"
+            >
+              <span>Bebas Mesin Massal</span>
+              <span>✓</span>
+            </div>
+          </div>
+
+          <div
+            class="bg-base-canvas p-7 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-secondary/15 text-secondary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform"
+              >
+                🌱
+              </div>
+              <h3 class="font-serif text-xl font-bold mb-2.5 text-base-text">
+                Benang &amp; Tali Pilihan
+              </h3>
+              <p class="text-base-muted text-sm leading-relaxed">
+                Menggunakan benang katun halus, milk cotton, dan tali kur anyam
+                berkualitas tinggi. Lembut disentuh, tidak mudah luntur, dan
+                nyaman dipakai harian.
+              </p>
+            </div>
+            <div
+              class="mt-5 pt-4 border-t border-base-border/50 text-xs font-semibold text-secondary flex items-center gap-1"
+            >
+              <span>Serat Halus &amp; Ramah Kulit</span>
+              <span>✓</span>
+            </div>
+          </div>
+
+          <div
+            class="bg-base-canvas p-7 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-tertiary/25 text-tertiary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform"
+              >
+                🎨
+              </div>
+              <h3 class="font-serif text-xl font-bold mb-2.5 text-base-text">
+                Bisa Custom Bebas
+              </h3>
+              <p class="text-base-muted text-sm leading-relaxed">
+                Sesuaikan model tas, perpaduan warna, panjang tali, hingga opsi
+                handle kayu jati alami sesuai gaya dan kebutuhan aktivitas Anda.
+              </p>
+            </div>
+            <div
+              class="mt-5 pt-4 border-t border-base-border/50 text-xs font-semibold text-[#B2763A] flex items-center gap-1"
+            >
+              <span>Konsultasi Bebas via WhatsApp</span>
+              <span>✓</span>
+            </div>
+          </div>
+
+          <div
+            class="bg-base-canvas p-7 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+          >
+            <div>
+              <div
+                class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition-transform"
+              >
+                💪
+              </div>
+              <h3 class="font-serif text-xl font-bold mb-2.5 text-base-text">
+                Kuat &amp; Awet s.d 5 kg
+              </h3>
+              <p class="text-base-muted text-sm leading-relaxed">
+                Anyaman padat dengan simpul kunci presisi. Tahan menopang
+                ponsel, dompet, buku, hingga tumbler tanpa takut merusak siluet
+                tas.
+              </p>
+            </div>
+            <div
+              class="mt-5 pt-4 border-t border-base-border/50 text-xs font-semibold text-primary flex items-center gap-1"
+            >
+              <span>Garansi Kerapatan Jahitan</span>
+              <span>✓</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="koleksi" class="py-16 lg:py-24 border-b border-base-border">
+      <div class="max-w-[1240px] mx-auto px-5 lg:px-8">
+        <div
+          class="flex flex-col lg:flex-row lg:items-end justify-between mb-12 gap-6"
+        >
+          <div>
+            <span
+              class="text-xs uppercase tracking-widest text-primary font-bold"
+              >Katalog Kriya Pilihan</span
+            >
+            <h2
+              class="font-serif text-3xl lg:text-4xl font-bold mt-2 mb-3 text-base-text"
+            >
+              Koleksi Tas &amp; Sendal Rajut
+            </h2>
+            <p class="text-base-muted text-sm sm:text-base max-w-xl">
+              Model terfavorit yang siap menemani hari-hari Anda. Bisa langsung
+              dipesan atau di-custom dengan variasi warna kesukaan Anda.
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-2" id="katalogFilter">
+            <button
+              class="filter-btn active bg-primary text-white shadow-sm px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all"
+              data-filter="all"
+            >
+              Semua Koleksi (16)
+            </button>
+            <button
+              class="filter-btn bg-base-canvas hover:bg-base-card text-base-text border border-base-border px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all"
+              data-filter="rajut"
+            >
+              Tas Rajut
+            </button>
+            <button
+              class="filter-btn bg-base-canvas hover:bg-base-card text-base-text border border-base-border px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all"
+              data-filter="talikur"
+            >
+              Tas Tali Kur
+            </button>
+            <button
+              class="filter-btn bg-base-canvas hover:bg-base-card text-base-text border border-base-border px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all"
+              data-filter="sling"
+            >
+              Sling Bag
+            </button>
+            <button
+              class="filter-btn bg-base-canvas hover:bg-base-card text-base-text border border-base-border px-5 py-2.5 rounded-full text-xs sm:text-sm font-medium transition-all"
+              data-filter="sendal"
+            >
+              Sendal Rajut
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          id="productGrid"
+        >
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="talikur"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/talikur1.jpg"
+                  alt="Tas Tali Kur Bunga Dua Warna"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-secondary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Favorit Harian 🧶
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Tali Kur Anyam • Motif Bunga Rapat
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Tali Kur Bunga Dua Warna
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Anyaman padat bertekstur kokoh dengan motif bunga timbul.
+                  Mudah dibersihkan dan tidak melar saat membawa muatan.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tas Tali Kur Bunga Dua Warna')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sendal"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sendal1.jpg"
+                  alt="Sendal Selop Rajut Bohemian"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Koleksi Baru ✨
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Katun Makrame • Sol Cork &amp; Karet Antislip
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Sendal Selop Rajut Bohemian
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Selop anyam handmade bernuansa terakota &amp; sage dengan sol
+                  empuk. Nyaman untuk santai dan adem di kaki.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Sendal Selop Rajut Bohemian')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="rajut"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/rajut1.jpg"
+                  alt="Tas Rajut Karakter Beruang Cokelat"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-tertiary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Koleksi Unik 🧸
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Milk Cotton Super Lembut
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Rajut Karakter Beruang Cokelat
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Tekstur benang tebal yang sangat halus di tangan dengan
+                  ekspresi beruang lucu. Pilihan favorit untuk hadiah spesial.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tas Rajut Karakter Beruang Cokelat')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="talikur"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/Gemini_Generated_Image_f43wtnf43wtnf43w.jpg"
+                  alt="Tas Anyaman Halilintar Etnik"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-base-text text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Desain Eksklusif ⚡
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Tali Kur Serat Padat • Etnik
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Anyaman Halilintar Etnik
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Simpul geometris halilintar bergradasi warna hangat. Struktur
+                  sangat kuat dan mampu menahan beban berat harian.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tas Anyaman Halilintar Etnik')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sendal"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sendal2.jpg"
+                  alt="Sendal Anyam Tali Kur Etnik"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-secondary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Favorit Santai 👡
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Tali Kur Halus • Bantalan Sol Empuk
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Sendal Anyam Tali Kur Etnik
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Anyaman strap tali kur berkunci rapat dengan warna krem mocca.
+                  Ringan, lentur, dan tahan air untuk harian.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Sendal Anyam Tali Kur Etnik')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sling"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sling1 (1).jpg"
+                  alt="Svara Sling Bag Crochet Pastel"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-secondary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Ringan &amp; Praktis 🌸
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Katun Rami Halus • Selempang
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Svara Sling Bag Crochet Pastel
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Sling bag minimalis untuk membawa smartphone, dompet kartu,
+                  dan lipstik. Cocok dipadukan dengan gaya kasual sehari-hari.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Svara Sling Bag Crochet Pastel')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sling"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sling1 (2).jpg"
+                  alt="Kala Bohemian Sling Bag"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Vintage Nuance ✨
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Bobble Stitch Katun
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Kala Bohemian Sling Bag
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Sentuhan tekstur rajut bobble timbul dengan rona hangat bumi.
+                  Tali selempang nyaman di bahu dan tidak membuat pegal.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Kala Bohemian Sling Bag')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="talikur"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/Gemini_Generated_Image_h558d7h558d7h558 (1).jpg"
+                  alt="Tas Anyaman Dua Nada Modern"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-secondary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Struktur Kokoh 🛡️
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Tali Kur Serat Padat • Dua Warna
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Anyaman Dua Nada Modern
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Kombinasi dua warna anggun dengan kerapatan rajutan ekstra.
+                  Menjaga bentuk tas tetap tegak rapi saat diletakkan di meja.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tas Anyaman Dua Nada Modern')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sling"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sling1 (4).jpg"
+                  alt="Aura Mini Sling Pouch"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-tertiary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Hadiah Manis 🎁
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Katun Halus • Kancing Magnet
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Aura Mini Sling Pouch
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Pouch selempang simpel berukuran mungil. Tepat untuk jalan
+                  sore santai membawa kunci dan kebutuhan esensial.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Aura Mini Sling Pouch')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="talikur"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/tas merah putih.jpg"
+                  alt="Tas Tali Kur Merah Putih Mawar"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Edisi Spesial 🇮🇩
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Tali Kur Anyam Tebal • Aksen Korsase Mawar
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Tali Kur Merah Putih Mawar
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Perpaduan anyaman tali kur merah dan putih anggun dengan
+                  detail korsase bunga pita dan handle melengkung kokoh.
+                  Dilengkapi tali selempang panjang.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tas Tali Kur Merah Putih Mawar')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="rajut"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/tasrajut.jpg"
+                  alt="Tas Rajut Karakter Kelinci Bunga Ceria"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Koleksi Gemas 🐰
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Milk Cotton Lembut • Aplikasi 3D Bunga &amp; Kelinci
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Rajut Karakter Kelinci Bunga Ceria
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Rajutan handmade berkarakter boneka kelinci timbul yang
+                  dikelilingi bunga warna-warni ceria. Dilengkapi ritsleting,
+                  handle kokoh, dan tali selempang oranye.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="
+                    orderProduct('Tas Rajut Karakter Kelinci Bunga Ceria')
+                  "
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sendal"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/sendal3.jpg"
+                  alt="Sendal Wedges Makrame Merah Elegan"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Elegan &amp; Nyaman 👡
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Makrame Tali Kur Merah Hitam • Aksen Manik Mutiara
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Sendal Wedges Makrame Merah Elegan
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Sendal wedges santai dengan strap anyaman makrame merah-hitam
+                  bermotif geometris dan mutiara perak. Sol tebal empuk dan
+                  tidak licin.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Sendal Wedges Makrame Merah Elegan')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sling"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/slimbag4.jpg"
+                  alt="Noir Elegance Sling Bag Rajut"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Eksklusif &amp; Mewah ✨
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Rajutan Chevron Hitam • Aksen Gold Metallic Vintage
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Noir Elegance Sling Bag Rajut
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Sling bag rajut hitam pekat berpola chevron dengan pengunci
+                  putar emas dan pelindung sudut ukir vintage. Elegan untuk
+                  pesta maupun acara formal.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Noir Elegance Sling Bag Rajut')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="sendal"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/Sendal 5.jpg"
+                  alt="Sendal Selop Silang Rajut Violet"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-secondary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Nyaman &amp; Adem 💜
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Rajutan Katun Halus Violet • Sol Empuk Fleksibel
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Sendal Selop Silang Rajut Violet
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Sendal selop strap silang bertekstur renda adem dengan
+                  sentuhan bros emas kupu-kupu. Sol ringan empuk, pas untuk
+                  jalan santai dan pemakaian harian.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Sendal Selop Silang Rajut Violet')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="rajut"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/rajut3.jpg"
+                  alt="Tas Serut Rajut Mochila Krisan Monokrom"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-base-text text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Boho Chic ✨
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Katun Rajut Padat • Sulam Bunga Timbul &amp; Tassel
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tas Serut Rajut Mochila Krisan Monokrom
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Tas serut model bucket mochila dengan sulaman bunga krisan
+                  kontras hitam-krem. Dilengkapi tali kepang bahu kokoh dan
+                  aksen rumbai tassel elegan.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="
+                    orderProduct('Tas Serut Rajut Mochila Krisan Monokrom')
+                  "
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="product-card bg-base-canvas border border-base-border rounded-3xl overflow-hidden shadow-warm-sm hover:shadow-warm transition-all group flex flex-col justify-between"
+            data-category="rajut"
+          >
+            <div>
+              <div class="relative aspect-square bg-base-card overflow-hidden">
+                <img
+                  src="./img/rajut4.jpg"
+                  alt="Tote Bag Rajut Noir Bell Blossom"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+                <div
+                  class="absolute top-3.5 left-3.5 bg-primary text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm"
+                >
+                  Elegan &amp; Manis 🌸
+                </div>
+                <button
+                  class="absolute top-3.5 right-3.5 bg-base-canvas/90 backdrop-blur-sm p-2 rounded-full text-base-text/40 hover:text-primary transition-all toggle-heart"
+                  aria-label="Simpan ke favorit"
+                >
+                  <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+
+              <div class="p-5">
+                <div
+                  class="text-[11px] text-secondary font-bold uppercase tracking-wider mb-1.5"
+                >
+                  Benang Katun Tebal Padat • Charm Gantungan Bunga Lonceng
+                </div>
+                <h3
+                  class="font-serif text-lg font-bold text-base-text mb-2 group-hover:text-primary transition-colors"
+                >
+                  Tote Bag Rajut Noir Bell Blossom
+                </h3>
+                <p class="text-xs text-base-muted leading-relaxed mb-4">
+                  Tote bag rajut hitam pekat beraksen lis pastel dengan
+                  gantungan rajut bunga lonceng 3D yang manis. Tali ganda kepang
+                  kuat untuk membawa berbagai barang harian.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 pt-0">
+              <div class="pt-3 border-t border-base-border/60">
+                <button
+                  onclick="orderProduct('Tote Bag Rajut Noir Bell Blossom')"
+                  class="w-full bg-base-card hover:bg-primary hover:text-white border border-base-border text-base-text py-3 rounded-full font-semibold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 group/btn"
+                >
+                  <span>Pesan via WhatsApp</span>
+                  <span
+                    class="text-secondary group-hover/btn:text-white transition-colors"
+                    >💬</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6.5 Kisah Pengrajin (Cerita di Balik Setiap Rajutan) -->
+    <section
+      id="kisah"
+      class="bg-base-card/60 py-16 lg:py-24 border-b border-base-border relative"
+    >
+      <div class="max-w-[1240px] mx-auto px-5 lg:px-8">
+        <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+          <!-- Story Content -->
+          <div class="lg:w-1/2">
+            <span
+              class="text-xs uppercase tracking-widest text-primary font-bold"
+              >Kisah Kami</span
+            >
+            <h2
+              class="font-serif text-3xl lg:text-4xl font-bold mt-2 mb-6 text-base-text leading-snug"
+            >
+              Cerita di Balik Setiap Rajutan Alifa Safara
+            </h2>
+
+            <p
+              class="mb-5 text-base-text/85 leading-relaxed text-base sm:text-lg"
+            >
+              Alifa Safara lahir dari kehangatan rumah di
+              <strong>Sumberrejo, Bojonegoro, Jawa Timur</strong>. Berawal dari
+              inisiatif ibu rumah tangga yang ingin mandiri secara ekonomi, kami
+              memberdayakan komunitas perajin perempuan lokal untuk terus
+              melestarikan seni kriya anyam dan rajut.
+            </p>
+
+            <p
+              class="mb-6 text-base-muted leading-relaxed text-sm sm:text-base"
+            >
+              Kami percaya bahwa slow-fashion bukan sekadar tren sesaat,
+              melainkan komitmen menghargai waktu, kesabaran tenaga manusia,
+              serta kualitas barang yang awet dan bermakna bagi pemiliknya.
+            </p>
+
+            <blockquote
+              class="p-5 my-6 bg-base-canvas rounded-2xl border-l-4 border-primary text-base-text font-serif italic text-lg sm:text-xl leading-relaxed shadow-warm-sm"
+            >
+              &ldquo;Menyatukan helai benang demi benang memberi kami ruang
+              untuk berkarya dari rumah sekaligus menyokong pendidikan anak dan
+              keluarga. Setiap tas yang Anda kenakan dirajut dengan doa baik dan
+              ketulusan hati.&rdquo;
+            </blockquote>
+
+            <div class="flex items-center gap-3">
+              <div
+                class="w-12 h-12 rounded-full bg-primary/20 text-primary font-serif font-bold text-xl flex items-center justify-center border border-primary/30"
+              >
+                W
+              </div>
+              <div>
+                <div class="font-bold text-base text-base-text">
+                  Ibu Winarsih
+                </div>
+                <div class="text-xs text-secondary font-medium">
+                  Perajin &amp; Pendiri Komunitas Alifa Safara Bojonegoro
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 Stages of Bag Creation -->
+          <div class="lg:w-1/2 w-full">
+            <div
+              class="bg-base-canvas p-7 sm:p-9 lg:p-10 rounded-3xl border border-base-border shadow-warm"
+            >
+              <h3 class="font-serif text-2xl font-bold mb-2 text-base-text">
+                3 Tahap Kelahiran Sebuah Tas
+              </h3>
+              <p class="text-xs sm:text-sm text-base-muted mb-8">
+                Perjalanan dari gulungan serat pilihan hingga menjadi tas yang
+                siap menemani aktivitas Anda.
+              </p>
+
+              <div class="space-y-7">
+                <!-- Stage 1 -->
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex-shrink-0 w-11 h-11 rounded-2xl bg-primary/10 text-primary flex items-center justify-center font-bold font-serif text-lg border border-primary/20"
+                  >
+                    1
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-base text-base-text mb-1">
+                      Kurasi Benang &amp; Tali Kur Pilihan
+                    </h4>
+                    <p class="text-sm text-base-muted leading-relaxed">
+                      Memilih benang katun ramah lingkungan dan tali kur
+                      berserat padat dengan ketahanan warna tinggi agar tidak
+                      luntur saat dicuci.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex-shrink-0 w-11 h-11 rounded-2xl bg-secondary/15 text-secondary flex items-center justify-center font-bold font-serif text-lg border border-secondary/25"
+                  >
+                    2
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-base text-base-text mb-1">
+                      Penenunan &amp; Anyaman Tangan (3–5 Hari)
+                    </h4>
+                    <p class="text-sm text-base-muted leading-relaxed">
+                      Perajin merajut setiap baris secara presisi. Ketelitian
+                      mengatur tegangan benang memastikan motif terbentuk rapi
+                      dan seragam.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="flex items-start gap-4">
+                  <div
+                    class="flex-shrink-0 w-11 h-11 rounded-2xl bg-tertiary/25 text-[#B2763A] flex items-center justify-center font-bold font-serif text-lg border border-tertiary/30"
+                  >
+                    3
+                  </div>
+                  <div>
+                    <h4 class="font-bold text-base text-base-text mb-1">
+                      Finishing, Handle &amp; Uji Beban 5 kg
+                    </h4>
+                    <p class="text-sm text-base-muted leading-relaxed">
+                      Pemasangan handle (kayu jati atau rajutan), kancing
+                      magnet, furing bagian dalam, serta pengujian ketahanan
+                      beban sebelum pengemasan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6.7 Testimoni Pembeli Asli -->
+    <section
+      id="testimoni"
+      class="bg-base-card/60 py-16 lg:py-24 border-b border-base-border relative"
+    >
+      <div class="max-w-[1240px] mx-auto px-5 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-xs uppercase tracking-widest text-primary font-bold"
+            >Ulasan Sahabat Alifa Safara</span
+          >
+          <h2
+            class="font-serif text-3xl lg:text-4xl font-bold mt-2 mb-4 text-base-text"
+          >
+            Apa Kata Mereka yang Telah Memakai?
+          </h2>
+          <p class="text-base-muted text-sm sm:text-base leading-relaxed">
+            Kepercayaan dan senyum kepuasan pembeli adalah bahan bakar semangat
+            ibu-ibu perajin kami untuk terus berkarya.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="bg-base-canvas p-8 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center gap-1 text-[#E5A855] mb-5">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+              </div>
+              <p
+                class="text-base-text mb-6 leading-relaxed italic text-sm sm:text-base"
+              >
+                &ldquo;Tasnya cantik banget, rajutannya rapi dan sangat padat.
+                Benang katunnya halus, sangat nyaman dipakai kerja harian dan
+                sering ditanyain teman sekantor beli di mana!&rdquo;
+              </p>
+            </div>
+
+            <div
+              class="flex items-center gap-3.5 pt-4 border-t border-base-border/50"
+            >
+              <div
+                class="w-11 h-11 rounded-full bg-primary/15 text-primary flex items-center justify-center font-bold text-base"
+              >
+                A
+              </div>
+              <div>
+                <div class="font-bold text-sm text-base-text">Amalia S.</div>
+                <div
+                  class="text-xs text-secondary flex items-center gap-1 font-medium mt-0.5"
+                >
+                  <span>✓</span>
+                  <span>Pembeli Terverifikasi, Jakarta</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-base-canvas p-8 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center gap-1 text-[#E5A855] mb-5">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+              </div>
+              <p
+                class="text-base-text mb-6 leading-relaxed italic text-sm sm:text-base"
+              >
+                &ldquo;Saya pesan custom tas tali kur untuk seserahan adik.
+                Respon Bu Winarsih sangat ramah dan sabar membantu memilih
+                perpaduan warna. Hasilnya melebihi ekspektasi!&rdquo;
+              </p>
+            </div>
+
+            <div
+              class="flex items-center gap-3.5 pt-4 border-t border-base-border/50"
+            >
+              <div
+                class="w-11 h-11 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold text-base"
+              >
+                D
+              </div>
+              <div>
+                <div class="font-bold text-sm text-base-text">Dina M.</div>
+                <div
+                  class="text-xs text-secondary flex items-center gap-1 font-medium mt-0.5"
+                >
+                  <span>✓</span>
+                  <span>Pembeli Terverifikasi, Surabaya</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-base-canvas p-8 rounded-3xl border border-base-border shadow-warm-sm hover:shadow-warm transition-all flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center gap-1 text-[#E5A855] mb-5">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                  ></path>
+                </svg>
+              </div>
+              <p
+                class="text-base-text mb-6 leading-relaxed italic text-sm sm:text-base"
+              >
+                &ldquo;Awalnya ragu apakah tas rajut kuat buat bawa tumbler dan
+                buku tebal, ternyata anyamannya kokoh banget dan ngga melar sama
+                sekali. Sangat worth it dengan harganya!&rdquo;
+              </p>
+            </div>
+
+            <div
+              class="flex items-center gap-3.5 pt-4 border-t border-base-border/50"
+            >
+              <div
+                class="w-11 h-11 rounded-full bg-tertiary/25 text-[#B2763A] flex items-center justify-center font-bold text-base"
+              >
+                R
+              </div>
+              <div>
+                <div class="font-bold text-sm text-base-text">Rini W.</div>
+                <div
+                  class="text-xs text-secondary flex items-center gap-1 font-medium mt-0.5"
+                >
+                  <span>✓</span>
+                  <span>Pembeli Terverifikasi, Bandung</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6.8 FAQ (Accordion yang Interaktif & Aksesibel) -->
+    <section id="faq" class="py-16 lg:py-24 border-b border-base-border">
+      <div class="max-w-3xl mx-auto px-5 lg:px-8">
+        <div class="text-center mb-12">
+          <span class="text-xs uppercase tracking-widest text-primary font-bold"
+            >Informasi &amp; Tanya Jawab</span
+          >
+          <h2
+            class="font-serif text-3xl lg:text-4xl font-bold mt-2 mb-3 text-base-text"
+          >
+            Pertanyaan yang Sering Diajukan
+          </h2>
+          <p class="text-base-muted text-sm sm:text-base">
+            Semua yang perlu Anda ketahui tentang perawatan, pemesanan custom,
+            dan garansi tas Alifa Safara.
+          </p>
+        </div>
+
+        <div class="space-y-4" id="faqAccordion">
+          <div
+            class="border border-base-border rounded-2xl bg-base-canvas overflow-hidden faq-item transition-all shadow-warm-sm"
+          >
+            <button
+              class="w-full text-left px-6 py-5 flex items-center justify-between focus:outline-none focus:bg-base-card transition-colors faq-btn group"
+              aria-expanded="false"
+            >
+              <span
+                class="font-semibold text-base sm:text-lg text-base-text group-hover:text-primary transition-colors"
+              >
+                Bagaimana cara mencuci dan merawat tas rajut &amp; tali kur?
+              </span>
+              <svg
+                class="w-5 h-5 transform transition-transform duration-200 faq-icon text-primary flex-shrink-0 ml-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="px-6 pb-6 hidden faq-content text-base-muted text-sm sm:text-base leading-relaxed border-t border-base-border/50 pt-4"
+            >
+              Cukup cuci dengan tangan menggunakan air dingin atau suam-suam
+              kuku dicampur deterjen cair lembut (atau sampo bayi). Hindari
+              menyikat terlalu keras dan jangan gunakan pemutih pakaian. Untuk
+              mengeringkannya, letakkan rata di atas handuk kering di tempat
+              teduh (hindari sinar matahari terik langsung agar warna benang
+              tetap awet cerah).
+            </div>
+          </div>
+          <div
+            class="border border-base-border rounded-2xl bg-base-canvas overflow-hidden faq-item transition-all shadow-warm-sm"
+          >
+            <button
+              class="w-full text-left px-6 py-5 flex items-center justify-between focus:outline-none focus:bg-base-card transition-colors faq-btn group"
+              aria-expanded="false"
+            >
+              <span
+                class="font-semibold text-base sm:text-lg text-base-text group-hover:text-primary transition-colors"
+              >
+                Berapa lama proses pengerjaan untuk pesanan custom?
+              </span>
+              <svg
+                class="w-5 h-5 transform transition-transform duration-200 faq-icon text-primary flex-shrink-0 ml-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="px-6 pb-6 hidden faq-content text-base-muted text-sm sm:text-base leading-relaxed border-t border-base-border/50 pt-4"
+            >
+              Untuk koleksi ready-stock, paket dikemas dan dikirim dalam 1x24
+              jam kerja. Untuk pesanan custom (model khusus, request kombinasi
+              warna, atau handle kayu jati), waktu pengerjaan manual membutuhkan
+              waktu 3–7 hari kerja tergantung tingkat kerumitan pola dan antrean
+              pesanan. Kami akan selalu mengabari progres pembuatan via
+              WhatsApp!
+            </div>
+          </div>
+          <div
+            class="border border-base-border rounded-2xl bg-base-canvas overflow-hidden faq-item transition-all shadow-warm-sm"
+          >
+            <button
+              class="w-full text-left px-6 py-5 flex items-center justify-between focus:outline-none focus:bg-base-card transition-colors faq-btn group"
+              aria-expanded="false"
+            >
+              <span
+                class="font-semibold text-base sm:text-lg text-base-text group-hover:text-primary transition-colors"
+              >
+                Apakah tas rajut ini kuat menampung barang bawaan berat?
+              </span>
+              <svg
+                class="w-5 h-5 transform transition-transform duration-200 faq-icon text-primary flex-shrink-0 ml-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="px-6 pb-6 hidden faq-content text-base-muted text-sm sm:text-base leading-relaxed border-t border-base-border/50 pt-4"
+            >
+              Sangat kuat! Kami menggunakan teknik anyaman padat berkunci ganda
+              pada setiap sambungan tali dan badan tas. Tas kami telah diuji
+              secara rutin dan aman menopang beban harian hingga 5 kg (seperti
+              smartphone, dompet, pouch kosmetik, buku catatan, bahkan botol
+              minum/tumbler).
+            </div>
+          </div>
+          <div
+            class="border border-base-border rounded-2xl bg-base-canvas overflow-hidden faq-item transition-all shadow-warm-sm"
+          >
+            <button
+              class="w-full text-left px-6 py-5 flex items-center justify-between focus:outline-none focus:bg-base-card transition-colors faq-btn group"
+              aria-expanded="false"
+            >
+              <span
+                class="font-semibold text-base sm:text-lg text-base-text group-hover:text-primary transition-colors"
+              >
+                Apakah ada garansi jika paket cacat atau rusak saat pengiriman?
+              </span>
+              <svg
+                class="w-5 h-5 transform transition-transform duration-200 faq-icon text-primary flex-shrink-0 ml-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              class="px-6 pb-6 hidden faq-content text-base-muted text-sm sm:text-base leading-relaxed border-t border-base-border/50 pt-4"
+            >
+              Pasti ada! Kepuasan Anda adalah amanah bagi kami. Jika terdapat
+              kecacatan jahitan atau kerusakan saat paket diterima, kami
+              memberikan garansi perbaikan gratis atau penukaran baru. Cukup
+              sertakan video unboxing saat pertama kali membuka paket dan
+              hubungi WhatsApp kami.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-primary text-white py-20 lg:py-24 text-center relative overflow-hidden"
+    >
+      <div
+        class="absolute -right-20 -top-20 w-80 h-80 rounded-full border border-white/15 pointer-events-none"
+      ></div>
+      <div
+        class="absolute -left-20 -bottom-20 w-96 h-96 rounded-full border border-white/10 pointer-events-none"
+      ></div>
+
+      <div class="max-w-4xl mx-auto px-5 lg:px-8 relative z-10">
+        <span
+          class="inline-block px-3.5 py-1 bg-white/15 text-white text-xs font-bold uppercase tracking-widest rounded-full mb-6 border border-white/20"
+        >
+          🧵 Konsultasi Gratis Langsung ke Pengrajin
+        </span>
+        <h2
+          class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight"
+        >
+          Siap Tampil Unik dengan Tas Rajut yang Punya Cerita?
+        </h2>
+        <p
+          class="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
+        >
+          Kreasikan tas impian Anda bersama Ibu Winarsih dan tim perajin Alifa
+          Safara. Kami siap mewujudkan tas dengan ukuran, siluet, dan perpaduan
+          warna yang paling pas untuk Anda.
+        </p>
+
+        <div class="flex items-center justify-center">
+          <button
+            onclick="
+              openWA(
+                'Halo Alifa Safara, saya ingin konsultasi dan pesan tas rajut handmade. Bisa dibantu ya Bu?',
+              )
+            "
+            class="w-full sm:w-auto bg-white text-primary hover:bg-base-canvas px-10 py-4 rounded-full font-bold text-base transition-all shadow-warm-lg hover:scale-105 flex items-center justify-center gap-2.5"
+          >
+            <span>Chat WhatsApp Sekarang</span>
+            <span class="text-secondary font-bold text-lg">💬</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-base-canvas pt-16 pb-12">
+      <div
+        class="max-w-[1240px] mx-auto px-5 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-14"
+      >
+        <div class="lg:col-span-5">
+          <a href="#" class="flex flex-col mb-4 group">
+            <span
+              class="font-serif text-2xl sm:text-3xl font-bold text-primary tracking-tight"
+            >
+              Alifa Safara
+            </span>
+            <span
+              class="text-[11px] uppercase tracking-widest text-secondary font-bold"
+            >
+              Kriya Tas Rajut &amp; Tali Kur Bojonegoro
+            </span>
+          </a>
+
+          <p class="text-base-muted text-sm leading-relaxed max-w-sm mb-6">
+            Mendedikasikan diri untuk melestarikan kerajinan tangan lokal dan
+            memberdayakan ibu rumah tangga mandiri melalui karya tas rajut dan
+            tali kur yang bernilai estetika tinggi, awet, dan bermakna.
+          </p>
+
+          <div class="flex items-center gap-3">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram Alifa Safara"
+              class="w-10 h-10 rounded-full border border-base-border flex items-center justify-center text-base-text hover:text-white hover:bg-primary hover:border-primary transition-all shadow-sm"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.facebook.com/share/1E3V9wBXLR/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook Alifa Safara"
+              class="w-10 h-10 rounded-full border border-base-border flex items-center justify-center text-base-text hover:text-white hover:bg-[#1877F2] hover:border-[#1877F2] transition-all shadow-sm"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+            <button
+              onclick="
+                openWA(
+                  'Halo Alifa Safara, saya ingin tanya info pemesanan tas dan sendal rajut.',
+                )
+              "
+              aria-label="WhatsApp Alifa Safara"
+              class="w-10 h-10 rounded-full border border-base-border flex items-center justify-center text-base-text hover:text-white hover:bg-secondary hover:border-secondary transition-all shadow-sm"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12.012 0C5.385 0 .009 5.377.009 12.003c0 2.12.553 4.19 1.6 6.015L.033 24l6.136-1.611a11.972 11.972 0 005.843 1.516h.004c6.627 0 12.003-5.377 12.003-12.003S18.64 0 12.012 0zm0 21.905a9.96 9.96 0 01-5.084-1.39l-.364-.216-3.778.991.999-3.682-.237-.377A9.957 9.957 0 011.91 12.003C1.91 6.442 6.446 1.91 12.016 1.91s10.096 4.532 10.096 10.093c0 5.562-4.526 10.093-10.096 10.093l-.004-.001zm5.539-7.558c-.304-.152-1.797-.887-2.075-.989-.278-.102-.481-.152-.684.152-.203.304-.784.989-.961 1.192-.177.203-.354.228-.658.076-1.554-.775-2.658-1.428-3.673-3.136-.203-.338.005-.487.166-.653.117-.12.304-.354.456-.532.152-.177.203-.304.304-.506.102-.203.051-.38-.025-.532-.076-.152-.684-1.647-.938-2.254-.247-.594-.497-.514-.684-.523-.177-.009-.38-.01-.583-.01-.203 0-.532.076-.811.38-.278.304-1.064 1.039-1.064 2.534 0 1.495 1.089 2.939 1.241 3.142.152.203 2.14 3.267 5.185 4.58.723.312 1.288.498 1.727.638.725.23 1.385.197 1.905.12.584-.087 1.797-.735 2.05-1.444.253-.709.253-1.317.177-1.444-.076-.127-.278-.203-.583-.355z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3">
+          <h4 class="font-serif font-bold text-base-text mb-4 text-base">
+            Koleksi Kriya
+          </h4>
+          <ul class="space-y-2.5 text-sm text-base-muted">
+            <li>
+              <a href="#koleksi" class="hover:text-primary transition-colors"
+                >Tote Bag Rajut Katun</a
+              >
+            </li>
+            <li>
+              <a href="#koleksi" class="hover:text-primary transition-colors"
+                >Tas Anyaman Tali Kur Bunga</a
+              >
+            </li>
+            <li>
+              <a href="#koleksi" class="hover:text-primary transition-colors"
+                >Sendal Selop Rajut</a
+              >
+            </li>
+            <li>
+              <a href="#koleksi" class="hover:text-primary transition-colors"
+                >Sling Bag Bobble Vintage</a
+              >
+            </li>
+            <li>
+              <button
+                onclick="
+                  openWA(
+                    'Halo Alifa Safara, saya ingin konsultasi custom order tas/sendal.',
+                  )
+                "
+                class="hover:text-primary transition-colors text-left font-semibold text-primary"
+              >
+                Pesan Custom via WhatsApp
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4">
+          <h4 class="font-serif font-bold text-base-text mb-4 text-base">
+            Studio Kriya Kami
+          </h4>
+          <ul class="space-y-3.5 text-sm text-base-muted">
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-base">📍</span>
+              <span
+                ><strong>Studio Alifa Safara</strong><br />Kecamatan Sumberrejo,
+                Kabupaten Bojonegoro, Jawa Timur 62191</span
+              >
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-secondary text-base">⏰</span>
+              <span
+                ><strong>Jam Layanan Konsultasi:</strong><br />Senin – Sabtu,
+                08.00 – 17.00 WIB</span
+              >
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-base">📱</span>
+              <span
+                ><strong>WhatsApp Resmi:</strong><br />+62 813-3315-6895 (Bu
+                Winarsih)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="max-w-[1240px] mx-auto px-5 lg:px-8 border-t border-base-border pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-base-muted"
+      >
+        <p>
+          &copy; 2026 Alifa Safara. Seluruh hak cipta dilindungi undang-undang.
+        </p>
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-primary transition-colors"
+            >Kebijakan Privasi</a
+          >
+          <a href="#" class="hover:text-primary transition-colors"
+            >Syarat Pemesanan</a
+          >
+          <a href="#faq" class="hover:text-primary transition-colors"
+            >Bantuan FAQ</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Floating WhatsApp Action Button (Mobile & Desktop) -->
+    <aside
+      aria-label="Kontak Cepat WhatsApp"
+      class="fixed bottom-6 right-6 z-50 flex items-center group"
+    >
+      <button
+        onclick="
+          openWA(
+            'Halo Alifa Safara, saya ingin tanya seputar koleksi tas rajut dan tali kur.',
+          )
+        "
+        aria-label="Hubungi Bu Winarsih via WhatsApp"
+        class="bg-[#25D366] hover:bg-[#1EBE5D] text-white p-3.5 sm:p-4 rounded-full shadow-warm-lg transition-transform transform hover:scale-110 flex items-center justify-center animate-pulse-glow"
+      >
+        <svg class="w-6 h-6 sm:w-7 sm:h-7 fill-current" viewBox="0 0 24 24">
+          <path
+            d="M12.012 0C5.385 0 .009 5.377.009 12.003c0 2.12.553 4.19 1.6 6.015L.033 24l6.136-1.611a11.972 11.972 0 005.843 1.516h.004c6.627 0 12.003-5.377 12.003-12.003S18.64 0 12.012 0zm0 21.905a9.96 9.96 0 01-5.084-1.39l-.364-.216-3.778.991.999-3.682-.237-.377A9.957 9.957 0 011.91 12.003C1.91 6.442 6.446 1.91 12.016 1.91s10.096 4.532 10.096 10.093c0 5.562-4.526 10.093-10.096 10.093l-.004-.001zm5.539-7.558c-.304-.152-1.797-.887-2.075-.989-.278-.102-.481-.152-.684.152-.203.304-.784.989-.961 1.192-.177.203-.354.228-.658.076-1.554-.775-2.658-1.428-3.673-3.136-.203-.338.005-.487.166-.653.117-.12.304-.354.456-.532.152-.177.203-.304.304-.506.102-.203.051-.38-.025-.532-.076-.152-.684-1.647-.938-2.254-.247-.594-.497-.514-.684-.523-.177-.009-.38-.01-.583-.01-.203 0-.532.076-.811.38-.278.304-1.064 1.039-1.064 2.534 0 1.495 1.089 2.939 1.241 3.142.152.203 2.14 3.267 5.185 4.58.723.312 1.288.498 1.727.638.725.23 1.385.197 1.905.12.584-.087 1.797-.735 2.05-1.444.253-.709.253-1.317.177-1.444-.076-.127-.278-.203-.583-.355z"
+          />
+        </svg>
+      </button>
+      <span
+        class="hidden sm:group-hover:inline-block bg-base-text text-white text-xs font-semibold px-3 py-1.5 rounded-xl shadow-lg mr-3 whitespace-nowrap order-first"
+      >
+        Tanya Bu Winarsih di WA
+      </span>
+    </aside>
+    <!-- Interactive JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

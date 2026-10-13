@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Amalia S.",
+    "location": "Jakarta",
+    "initial": "A",
+    "badgeClass": "bg-primary/15 text-primary",
+    "rating": 5,
+    "quote": "Tasnya cantik banget, rajutannya rapi dan sangat padat. Benang katunnya halus, sangat nyaman dipakai kerja harian dan sering ditanyain teman sekantor beli di mana!"
+  },
+  {
+    "name": "Dina M.",
+    "location": "Surabaya",
+    "initial": "D",
+    "badgeClass": "bg-secondary/20 text-secondary",
+    "rating": 5,
+    "quote": "Saya pesan custom tas tali kur untuk seserahan adik. Respon Bu Winarsih sangat ramah dan sabar membantu memilih perpaduan warna. Hasilnya melebihi ekspektasi!"
+  },
+  {
+    "name": "Rini W.",
+    "location": "Bandung",
+    "initial": "R",
+    "badgeClass": "bg-tertiary/25 text-[#B2763A]",
+    "rating": 5,
+    "quote": "Awalnya ragu apakah tas rajut kuat buat bawa tumbler dan buku tebal, ternyata anyamannya kokoh banget dan ngga melar sama sekali. Sangat worth it dengan harganya!"
+  }
+]
